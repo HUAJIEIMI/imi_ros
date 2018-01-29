@@ -1,0 +1,9 @@
+<library path="lib/libimi_camera_nodelet">
+
+  <class name="imi_camera/ImiDriverNodelet" type="imi_camera::ImiDriverNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+      Imi driver nodelet.
+    </description>
+  </class>
+
+</library>
