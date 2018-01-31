@@ -7,6 +7,9 @@
   <license>BSD</license>
 
   <maintainer email="chenshangwei@hjimi.com">hjimi</maintainer>
+  
+  <url>http://wiki.ros.org/imi_camera</url>
+  <author>HUAJIEIMI</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
