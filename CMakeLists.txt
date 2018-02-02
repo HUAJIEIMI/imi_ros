@@ -33,12 +33,12 @@ catkin_package(
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
 SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
-link_directories(../build/${IMI_SDK_DIR}/lib)
+link_directories(${CMAKE_CURRENT_BINARY_DIR}/${IMI_SDK_DIR}/lib)
 
 include_directories(include
                     ${catkin_INCLUDE_DIRS}
                     ${Boost_INCLUDE_DIRS}
-                    ../build/${IMI_SDK_DIR}/include
+                    ${CMAKE_CURRENT_BINARY_DIR}/${IMI_SDK_DIR}/include
                     )
 
 
