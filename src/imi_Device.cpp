@@ -83,7 +83,7 @@ namespace imi_wrapper
             m_cy = cameraParams[3];
         }
 
-        ROS_INFO("****** fx=%f  fy=%f  cx=%f  cy=%f\n", m_fx, m_fy, m_cx, m_cy);
+       // ROS_INFO("****** fx=%f  fy=%f  cx=%f  cy=%f\n", m_fx, m_fy, m_cx, m_cy);
 
 		if (0 != imiCamOpen(&camHandle))
 		{
